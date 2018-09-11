@@ -1,0 +1,11 @@
+D:\2018\Angular\angular-and-azure\bin\Debug\netcoreapp2.0\angular-and-azure.deps.json
+D:\2018\Angular\angular-and-azure\bin\Debug\netcoreapp2.0\angular-and-azure.runtimeconfig.json
+D:\2018\Angular\angular-and-azure\bin\Debug\netcoreapp2.0\angular-and-azure.runtimeconfig.dev.json
+D:\2018\Angular\angular-and-azure\bin\Debug\netcoreapp2.0\angular-and-azure.dll
+D:\2018\Angular\angular-and-azure\bin\Debug\netcoreapp2.0\angular-and-azure.pdb
+D:\2018\Angular\angular-and-azure\obj\Debug\netcoreapp2.0\angular-and-azure.csprojAssemblyReference.cache
+D:\2018\Angular\angular-and-azure\obj\Debug\netcoreapp2.0\angular-and-azure.csproj.CoreCompileInputs.cache
+D:\2018\Angular\angular-and-azure\obj\Debug\netcoreapp2.0\angular-and-azure.AssemblyInfoInputs.cache
+D:\2018\Angular\angular-and-azure\obj\Debug\netcoreapp2.0\angular-and-azure.AssemblyInfo.cs
+D:\2018\Angular\angular-and-azure\obj\Debug\netcoreapp2.0\angular-and-azure.dll
+D:\2018\Angular\angular-and-azure\obj\Debug\netcoreapp2.0\angular-and-azure.pdb
