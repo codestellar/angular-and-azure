@@ -338,6 +338,12 @@
                                 </td>
                             </tr>
             
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description">
+                                        </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
             </section>
@@ -360,10 +366,43 @@
             
                             <tr>
                                 <td class="col-md-4">
+                                        <div class="io-description"><p>Performs addition of two numbers.</p>
+            </div>
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <ul class="jsdoc-params">
+                                                        <li>
+                                                            <div>
+                                                                <b>a</b>
+                                                            </div>
+                                                            <div>
+                                                                <p>First Number</p>
+            
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <b>b</b>
+                                                            </div>
+                                                            <div>
+                                                                <p>Second Number</p>
+            
+                                                            </div>
+                                                        </li>
+                                                </ul>
+                                                <b>Example :</b>
+                                                    <div>
+                                                        <p>getAddition(1, 2)</p>
+            
+                                                    </div>
+                                        </div>
                                         <div class="io-description">
                                             <b>Returns: </b>    <code>number</code>
             
                                         </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
                                 </td>
                             </tr>
                         </tbody>
@@ -384,10 +423,43 @@
             
                             <tr>
                                 <td class="col-md-4">
+                                        <div class="io-description"><p>Performs subtraction of two numbers.</p>
+            </div>
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <ul class="jsdoc-params">
+                                                        <li>
+                                                            <div>
+                                                                <b>a</b>
+                                                            </div>
+                                                            <div>
+                                                                <p>First Number</p>
+            
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <b>b</b>
+                                                            </div>
+                                                            <div>
+                                                                <p>Second Number</p>
+            
+                                                            </div>
+                                                        </li>
+                                                </ul>
+                                                <b>Example :</b>
+                                                    <div>
+                                                        <p>getSubtraction(1, 2)</p>
+            
+                                                    </div>
+                                        </div>
                                         <div class="io-description">
                                             <b>Returns: </b>    <code>number</code>
             
                                         </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
                                 </td>
                             </tr>
                         </tbody>
@@ -403,12 +475,32 @@
 })
 export class MathOperationsService {
 
+  /**
+   * @ignore
+   */
   constructor() { }
 
+  /**
+   * Performs addition of two numbers.
+   * 
+   * @example getAddition(1, 2)
+   * 
+   * @param {number} a First Number
+   * @param {number} b Second Number
+   */
   getAddition(a: number, b: number): number{
     return a + b;
   }
 
+
+  /**
+   * Performs subtraction of two numbers.
+   * 
+   * @example getSubtraction(1, 2)
+   * 
+   * @param {number} a First Number
+   * @param {number} b Second Number
+   */  
   getSubtraction(a: number, b: number): number{
     return a - b;
   }
